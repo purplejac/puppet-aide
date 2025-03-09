@@ -1,5 +1,19 @@
 # Changelog
 
+## Release 4.0.0
+
+**Enhancements**
+
+* Update dependencies to allow puppetlabs/cron <7 (canihavethisone)
+* Add Rocky 8 & 9 support (canihavethisone)
+* Add RedHat 9 support (canihavethisone)
+* Update PDK to v3.4.0
+* Update changelog and metadata
+
+**Breaking Changes**
+* Drop RedHat 7 support (canihavethisone)
+* Drop CentOS 7 support (canihavethisone)
+
 ## Release 3.0.0
 
 **Enhancements**
