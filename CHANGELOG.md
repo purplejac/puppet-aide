@@ -9,6 +9,7 @@
 * Add RedHat 9 support (canihavethisone)
 * Update PDK to v3.4.0
 * Update changelog and metadata
+* Add spec coverage
 
 **Breaking Changes**
 * Drop RedHat 7 support (canihavethisone)

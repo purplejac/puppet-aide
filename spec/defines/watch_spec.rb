@@ -17,6 +17,7 @@ describe 'aide::watch' do
       let(:pre_condition) { 'include aide' }
 
       it { is_expected.to compile.with_all_deps }
+      it { is_expected.to contain_concat__fragment('namevar') }
     end
   end
 end

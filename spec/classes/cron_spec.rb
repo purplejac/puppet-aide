@@ -35,6 +35,7 @@ describe 'aide::cron' do
       it { expect(email_subject).to eq('testserver - AIDE Integrity Check aide@edu') }
       it { expect(io).to eq('nice ionice -c3') }
       it { is_expected.to contain_cron__job('aide') }
+      it { is_expected.to contain_file('/usr/local/bin/aide_daily_check_command.sh').with_owner('root').with_mode('0755') }
     end
   end
 end
