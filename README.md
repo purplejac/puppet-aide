@@ -17,6 +17,8 @@
 
 ## Description
 
+This is a maintained fork of https://github.com/indiana-university/puppet-aide.
+
 This is a module for managing the installation, configuration and initial database creation of [AIDE](https://aide.github.io/) (Advanced Intrustion Detection Environment)package.
 
 AIDE creates a database of files and their attributes from the rules that it finds in its configuration file. Once this database is initialized, it can be used to verify the integrity of the files contained within it. If the file attributes change according to the rules supplied, a summary of changes is logged and can be acted upon.

@@ -1,8 +1,8 @@
 {
   "name": "iu-aide",
   "version": "4.0.0",
-  "author": "Kenneth Gyan <kgyan@iu.edu>, Mark Addonizio <maddoni@iu.edu>",
-  "summary": "Installs, configures, and manages AIDE (Advanced Intrustion Detection Environment).",
+  "author": "Kenneth Gyan <kgyan@iu.edu>, Mark Addonizio <maddoni@iu.edu>, nebakke <purplejac@hald.id.au>",
+  "summary": "Forked for maintenance from iu-aide. Installs, configures, and manages AIDE (Advanced Intrustion Detection Environment).",
   "license": "BSD-3-Clause",
   "source": "https://github.com/indiana-university/puppet-aide",
   "project_page": "https://github.com/indiana-university/puppet-aide",
