@@ -21,7 +21,7 @@ class aide::firstrun (
   exec { 'aide init':
     command     => "nice ionice -c3 ${aide_path} --init --config ${conf_path}",
     user        => 'root',
-    path        => ['/usr/bin', '/bin'],
+    path        => $facts['path'],
     timeout     => $init_timeout,
     refreshonly => true,
     subscribe   => Concat['aide.conf'],
